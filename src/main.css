@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.inter{
+
+@apply overflow-hidden
+}
+
+h1 {
+  @apply text-[clamp(42px,8vw,82px)] leading-none  font-extrabold font-english;
+}
+h2 {
+  @apply text-[clamp(18px,4vw,1.8rem)];
+}
+h3 {
+  @apply text-[20px];
+}
+h4 {
+  @apply text-[18px];
+}
+h5 {
+  @apply text-[16px];
+}
+h6 {
+  @apply text-[14px];
+}
+
+.icons {
+  @apply -rotate-90
+text-2xl 
+text-primary-400
+transition-all 
+  duration-150 
+  hover:text-primary-600
+ hover:-translate-x-1;
+}
+.mail {
+  @apply text-sm 
+text-primary-400
+transition-all 
+  duration-150 
+  hover:text-primary-600
+ hover:-translate-x-1;
+}
+.masterHero {
+  @apply container mx-auto max-w-screen-xl relative 
+    min-h-[calc(100vh-100px)] flex items-center;
+}
+.mainHeroPage {
+  @apply container  mx-auto max-w-5xl;
+}
+
+.about {
+  @apply container
+  mx-auto
+  max-w-screen-xl
+  grid
+  place-items-center
+  px-8;
+}
+
+.content {
+  @apply
+   px-8
+flex
+flex-col
+w-full
+
+
+
+
+md:flex-row
+md:max-w-screen-lg;
+}
+
+.aboutTitle {
+  @apply flex
+items-center
+/*Before*/
+before:content-['1._']
+before:text-large
+before:mr-2
+before:text-primary-400
+/*after*/
+after:content-['']
+after:h-[2px]
+after:w-[100px]
+after:bg-primary-600
+after:mx-5;
+}
+
+.skills {
+  @apply py-2
+px-6
+capitalize
+border-1
+border-primary-400
+before:content-['⇢_']
+before:text-primary-500;
+}
+
+.sabri {
+  @apply after:content-['']
+after:max-w-[250px]
+after:max-h-[250px]
+after:w-[100%]
+after:h-[300px]
+after:border-8
+after:border-primary-500
+after:-translate-y-unit-5xl
+after:translate-x-10
+after:rounded-lg;
+}
+
+.projects {
+  @apply container
+  mx-auto
+  max-w-screen-xl
+  px-8
+  ;
+
+}
+
+.mainProjects {
+  @apply
+ max-w-5xl
+ container
+ mx-auto
+ px-8
+ flex
+ flex-col
+ gap-3;
+}
+
+.projectsTitle{
+ @apply flex
+items-center
+/*Before*/
+before:content-['2._']
+before:text-large
+before:mr-2
+before:text-primary-400
+/*after*/
+after:content-['']
+after:h-[2px]
+after:w-[100px]
+after:bg-primary-600
+after:mx-5;
+}
+
+.contact{
+@apply flex
+items-center
+/*Before*/
+before:content-['2._']
+before:text-large
+before:mr-2
+before:text-primary-400
+/*after*/
+after:content-['']
+after:h-[2px]
+after:w-[100px]
+after:bg-primary-600
+after:mx-5;}
