@@ -3,7 +3,7 @@ import { AiOutlineTwitter, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 export default function Contact() {
   return (
-    <div className="container max-w-screen-xl mx-auto grid place-items-center pb-32">
+    <div id="contact" className="container max-w-screen-xl mx-auto grid place-items-center pb-32">
       <div className="max-w-5xl w-full px-8 flex flex-col gap-4 ">
         <h2 className="contact">Contact Me </h2>
         <p>
