@@ -20,7 +20,7 @@ export default function Projects() {
   }, [inView])
 
   return (
-    <div className="projects pb-32 font-english">
+    <div id="projects" className="projects pb-32 font-english">
       <div className="mainProjects ">
         <h2 className="projectsTitle">Projects</h2>
         <p>{english.projects.description}</p>
