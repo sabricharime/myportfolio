@@ -2,14 +2,14 @@ export const english = {
   intro: {
     one: "Welcome, I'm",
     tow: 'Sabri Charime',
-    three: 'I build web and mobile apps.',
-    des: "I'm a software developer based in Skikda - Algeria , specializing in building exceptional websites and mobile applications, and everything in between.",
+    three: 'I build websites and web apps.',
+    des: "I'm a web developer based in Skikda - Algeria , specializing in building exceptional websites and web applications, and everything in between.",
     btn: 'Get In Touch',
   },
   about: {
     title: 'About Me',
     description:
-      "Hello! I'm Junior, a Software Developer based in skikda, Algeria. I enjoy creating beautiful and reliable applications for internet and phones.My goal is to always build scalable products and performant experiences.",
+      "Hello! I'm Junior, a web Developer based in skikda, Algeria. I enjoy creating beautiful and reliable applications for internet and phones.My goal is to always build scalable products and performant experiences.",
     technology: {
       description:
         "Here are a few technologies I've been working with recently:",
